@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.4)  4 SEP 2016 15:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.4)  4 SEP 2016 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,43 +521,49 @@ File: ot1txr.fd 2000/12/15 v3.1
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./abstract.tex
+(./front-title.tex) (./front-author.tex) (./abstract.tex
+Missing character: There is no ’ in font txr!
+Missing character: There is no “ in font txr!
+Missing character: There is no ” in font txr!
+Missing character: There is no ’ in font txr!
 Missing character: There is no ’ in font txr!
 ) (./keyword.tex)
-LaTeX Font Info:    Try loading font information for U+txmia on input line 117.
-
+LaTeX Font Info:    Try loading font information for U+txmia on input line 96.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 117.
+LaTeX Font Info:    Try loading font information for U+msa on input line 96.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 117.
+LaTeX Font Info:    Try loading font information for U+msb on input line 96.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 117.
-
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 96.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-(./intrduction.tex) (./experiment.tex) (./backmatters.tex (./main.bbl))
-[1
+(./intrduction.tex) (./experiment.tex
+File: figures/braid-angle.png Graphic file (type QTm)
+ <use  "figures/braid-angle.png" >)
+(./backmatters.tex (./main.bbl)) [1
 
+
+] [2
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 2526 strings out of 493589
- 31471 string characters out of 6143513
- 93821 words of memory out of 5000000
- 5893 multiletter control sequences out of 15000+600000
- 25298 words of font info for 80 fonts, out of 8000000 for 9000
+ 2529 strings out of 493589
+ 31432 string characters out of 6143513
+ 93687 words of memory out of 5000000
+ 5880 multiletter control sequences out of 15000+600000
+ 22072 words of font info for 69 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 32i,7n,30p,1314b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,7n,30p,1044b,217s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (1 page).
+Output written on main.pdf (2 pages).
