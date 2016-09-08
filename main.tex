@@ -78,44 +78,20 @@
 % \biboptions{}
 
 
-\journal{Nuclear Physics B}
+\journal{Composites}
 
 \begin{document}
 
 \begin{frontmatter}
 
-\title{Sample article to present \texttt{elsarticle} class\tnoteref{label0}}
-\tnotetext[label0]{This is only an example}
+
+\input{front-title}
+\input{front-author}
+
+\input{abstract}
+\input{keyword}
 
 
-\author[label1,label2]{Author One\corref{cor1}\fnref{label3}}
-\address[label1]{Address One}
-\address[label2]{Address Two\fnref{label4}}
-
-\cortext[cor1]{I am corresponding author}
-\fntext[label3]{I also want to inform about\ldots}
-\fntext[label4]{Small city}
-
-\ead{author.one@mail.com}
-\ead[url]{author-one-homepage.com}
-
-\author[label5]{Author Two}
-\address[label5]{Some University}
-\ead{author.two@mail.com}
-
-\author[label1,label5]{Author Three}
-\ead{author.three@mail.com}
-
-\begin{abstract}
-Text of abstract. Text of abstract. Text of abstract. Text of abstract. Text of abstract. 
-\end{abstract}
-
-\begin{keyword}
-%% keywords here, in the form: keyword \sep keyword
-example \sep \LaTeX \sep template
-%% MSC codes here, in the form: \MSC code \sep code
-%% or \MSC[2008] code \sep code (2000 is the default)
-\end{keyword}
 
 \end{frontmatter}
 
@@ -131,38 +107,12 @@ example \sep \LaTeX \sep template
 
 
 
-%\appendix
-%
-%\section{Section in Appendix}
-%\label{appendix-sec1}
 
 
 
-%% References
-%%
-%% Following citation commands can be used in the body text:
-%% Usage of \cite is as follows:
-%%   \cite{key}         ==>>  [#]
-%%   \cite[chap. 2]{key} ==>> [#, chap. 2]
-%%
-\citeyear{Einstein}
-%% References with bibTeX database:
 
-%\bibliographystyle{elsarticle-num}
- \bibliographystyle{elsarticle-harv}
-% \bibliographystyle{elsarticle-num-names}
-% \bibliographystyle{model1a-num-names}
-% \bibliographystyle{model1b-num-names}
-% \bibliographystyle{model1c-num-names}
-% \bibliographystyle{model1-num-names}
-% \bibliographystyle{model2-names}
-% \bibliographystyle{model3a-num-names}
-% \bibliographystyle{model3-num-names}
-% \bibliographystyle{model4-names}
-% \bibliographystyle{model5-names}
-% \bibliographystyle{model6-num-names}
 
-\bibliography{sample}
+\input{backmatters}
 
 
 \end{document}
